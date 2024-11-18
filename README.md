@@ -1,7 +1,3 @@
-RadiantSeraph1: write a readme.md for this project
-
-Workspace: Still building the workspace index, response may be less accurate.
-
 # Radiant Solutions Web Project
 
 This project is a web application for Radiant Solutions, an organization that solicits help from volunteers to solve global problems. The application includes pages for user registration, login, contact information, and more.
@@ -140,10 +136,6 @@ For any inquiries, please contact us at:
 ---
 
 Radiant Solutions - Solving global problems with volunteer help.
-
-RadiantSeraph1: make the readme.md well
-
-Workspace: # Radiant Solutions Web Project
 
 This project is a web application for Radiant Solutions, an organization that solicits help from volunteers to solve global problems. The application includes pages for user registration, login, contact information, and more.
 
