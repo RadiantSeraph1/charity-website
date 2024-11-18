@@ -1,0 +1,114 @@
+<?php 
+    include("connection.php");
+    include("login.php");
+?>
+
+<html>
+<head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            text-align: center;
+            background-color: powderblue;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0; 
+            padding: 0; 
+        }
+        
+        .topnav {
+            overflow: hidden;
+            background-color: white;
+        }
+
+        .topnav a {
+            float: left;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: blue;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: powderblue;
+            color: black;
+        }
+
+        #form {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+            margin: 0 auto; 
+            margin-top: 50px; 
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="Project.html">Home</a>
+        <a href="contactpage.html">Contact Us</a>
+        <a href="about.html">About Us</a>
+        <a class="active" href="signup_page.php">Sign Up</a>
+        <a href="index.php">Log In</a>
+        <img src="RS.png" width="50px" height="50px" id="logo">
+    </div>
+<body>
+    <div id="form">
+        <h1>Sign Up</h1>
+        <form name="form" action="login.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br><br>
+            <input type="submit" id="btn" value="Sign up" name="submit">
+        </form>
+    </div>
+</body>
+</html>
+
+
